@@ -7,6 +7,8 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  /* TODO: make this change the cursos. currently doesn't work */
+  cursor: url(http://pngimg.com/uploads/shrimps/shrimps_PNG18277.png), auto;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -51,7 +53,16 @@ body, a:link, a:visited, a:active{
   background-size: 600px 200px;
   width: 600px;
   height: 200px;
+  transition-duration: 0.2s;
+  /* animation-direction: alternate; */
 }
+
+.shark:hover {
+  transform: rotate(30deg);
+  transition-duration: 0.1s;
+
+}
+
 .big {
   background-size: 600px 200px;
   width: 600px;
