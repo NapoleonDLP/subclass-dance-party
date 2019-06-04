@@ -20,9 +20,11 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
+.redDot{
   border:10px solid red;
   border-radius:10px;
+}
+.dancer{
   position:absolute;
 }
 .narwall {
@@ -30,6 +32,20 @@ body, a:link, a:visited, a:active{
   width: 623px;
   height: 200px;
 
+}
+.dolphin {
+  background-image: url(https://www.acsonline.org/assets/images/tursiops-truncatus-1.png);
+  background-size: 300px 100px;
+  width: 300px;
+  height: 100px;
+  transition-property: width height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.big {
+  background-size: 600px 200px;
+  width: 600px;
+  height: 200px;
 }
 
 .upsideDown {
