@@ -25,3 +25,13 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.narwall {
+  background-image: url(http://sites.psu.edu/siowfa15/wp-content/uploads/sites/29639/2015/10/Narwhal_featured-623x200.jpg);
+  width: 623px;
+  height: 200px;
+
+}
+
+.upsideDown {
+  transform: rotate(180deg);
+}
