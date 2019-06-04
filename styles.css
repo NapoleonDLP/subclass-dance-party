@@ -26,24 +26,22 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   position:absolute;
+  transition-property: width height transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 .narwall {
   background-image: url(https://www.nicepng.com/png/full/78-789282_free-narwhal-clipart-narwhal-clip-art.png);
   width: 300px;
   height: 100px;
   background-size: 300px 100px;
-  transition-property: transform;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+
 }
 .dolphin {
   background-image: url(https://www.acsonline.org/assets/images/tursiops-truncatus-1.png);
   background-size: 300px 100px;
   width: 300px;
   height: 100px;
-  transition-property: width height;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
 }
 .big {
   background-size: 600px 200px;
