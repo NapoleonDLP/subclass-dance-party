@@ -8,8 +8,21 @@ document.addEventListener('click', function(ev) {
 }, false);
 
 const dancerGoToPosition = function(x, y) {
-  const dancers = Array.from(document.querySelectorAll('.dancer'));
+  const dolphins = Array.from(document.querySelectorAll('.dolphin'));
+  const dots = Array.from(document.querySelectorAll('.redDot'));
+  const narwhals = Array.from(document.querySelectorAll('.narwall'));
+  const dancers = [...dolphins, ...dots, ...narwhals];
+
+
+  // const dancers = Array.from(document.querySelectorAll('.dancer'));
   // let top = 50;
+
+  // shark is at 500, 1000
+  if ((x > 400 || x < 600) && (y > 900 || y < 1100)) {
+    x -= 100;
+    y -= 100;
+  }
+
   var x = x.toString();
   var y = y.toString();
 
